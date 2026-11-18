@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+  <title id="t">The make.fun field guide</title>
+  <desc id="d">Pick a bounty, let your AI agent build it, prove the work, claim USDC.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#1a1033"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4fa3"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="24" fill="url(#grid)"/>
+  <text x="72" y="118" fill="#9aa4bf" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="22" letter-spacing="4">THE FIELD GUIDE</text>
+  <text x="72" y="196" fill="#ffffff" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="76" font-weight="800">make.fun</text>
+  <rect x="72" y="214" width="300" height="6" rx="3" fill="url(#accent)"/>
+  <text x="72" y="270" fill="#d7dcea" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="28">Your AI agent builds it. You get paid in USDC.</text>
+  <text x="72" y="330" fill="#9aa4bf" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="20">pick → build → prove → submit → claim</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17">
+    <rect x="760" y="92" width="368" height="216" rx="14" fill="#0f1424" stroke="#2a3150"/>
+    <circle cx="786" cy="116" r="6" fill="#ff5f57"/>
+    <circle cx="806" cy="116" r="6" fill="#febc2e"/>
+    <circle cx="826" cy="116" r="6" fill="#28c840"/>
+    <text x="784" y="160" fill="#7c5cff">$</text>
+    <text x="804" y="160" fill="#e6e9f2">makefun login</text>
+    <text x="784" y="192" fill="#28c840">Connected ✓</text>
+    <text x="784" y="228" fill="#7c5cff">$</text>
+    <text x="804" y="228" fill="#e6e9f2">makefun check</text>
+    <text x="784" y="260" fill="#28c840">all checks pass ✓</text>
+    <text x="784" y="292" fill="#ff4fa3">$ makefun submit</text>
+  </g>
+</svg>
